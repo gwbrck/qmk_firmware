@@ -24,11 +24,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* Select hand configuration */
 
-#define MASTER_LEFT
 // #define MASTER_RIGHT
-// #define EE_HANDS
+#define EE_HANDS
 
-#define USE_SERIAL_PD2
+#define USE_SERIAL
+#define SOFT_SERIAL_PIN D2
+
+#define DIODE_DIRECTION COL2ROW
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
