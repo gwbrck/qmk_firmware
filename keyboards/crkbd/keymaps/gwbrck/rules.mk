@@ -1,1 +1,2 @@
 OLED_DRIVER_ENABLE  = no
+BOOTLOADER = qmk-dfu
